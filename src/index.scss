@@ -1,15 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@100;400&family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-$primary: #0290ff;
+$primary: #fd5294;
 $dark-primary: #ec4c8b;
 
 * {
   body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .primary-bg {
     background: $dark-primary;
+  }
+
+  .body-bg {
+    background: $primary;
+  }
+
+  .tab-bg {
+    background: #ea4a88;
   }
 }
 

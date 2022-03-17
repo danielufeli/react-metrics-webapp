@@ -8,7 +8,7 @@ const NavBar = () => (
       <div className="container-fluid">
 
         <div>
-          <NavLink className="px-2 text-white" to="/"><FaArrowLeft /></NavLink>
+          <NavLink className="me-2 text-white" to="/"><FaArrowLeft /></NavLink>
           <strong className="text-white">2022</strong>
         </div>
 
