@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@100;400&family=Montserrat:wght@300;500&display=swap");
 
 $primary: #0290ff;
+$dark-primary: #ec4c8b;
 
 * {
   body {
     font-family: "Montserrat", sans-serif;
+  }
+
+  .primary-bg {
+    background: $dark-primary;
   }
 }
 
