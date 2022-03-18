@@ -11,6 +11,7 @@
 - React
 - Redux
 - Jest
+- Bootstrap
 
 ## Live Demo 🚀
 
