@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-metrics-webapp/static/css/main.824feed4.css",
-    "main.js": "/react-metrics-webapp/static/js/main.110c3ec0.js",
+    "main.js": "/react-metrics-webapp/static/js/main.065734a9.js",
     "static/media/world-map.png": "/react-metrics-webapp/static/media/world-map.832f09d35aee23ae9c88.png",
     "static/media/img2.png": "/react-metrics-webapp/static/media/img2.1af08eeee0db651eeb54.png",
     "index.html": "/react-metrics-webapp/index.html",
     "main.824feed4.css.map": "/react-metrics-webapp/static/css/main.824feed4.css.map",
-    "main.110c3ec0.js.map": "/react-metrics-webapp/static/js/main.110c3ec0.js.map"
+    "main.065734a9.js.map": "/react-metrics-webapp/static/js/main.065734a9.js.map"
   },
   "entrypoints": [
     "static/css/main.824feed4.css",
-    "static/js/main.110c3ec0.js"
+    "static/js/main.065734a9.js"
   ]
 }
