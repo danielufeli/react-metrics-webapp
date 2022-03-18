@@ -17,7 +17,7 @@
 [Live Demo Link](https://danielufeli.github.io/react-metrics-webapp)
 
 ## Video presentation
-[Video](https://www.loom.com/share/2b36ce2b4ffa41b0a4ca1f0eb290e72f)
+[Video](#)
 
 ## Getting Started
 
