@@ -42,17 +42,17 @@ const ListDetailItem = ({ country }) => {
       </div>
       <div>
         <div className="row row-cols-1 row-cols-md-12 g-4 m-0">
-          <Stats title="Total Confirmed" stat={`${totalConfirmedCases} Cases`} />
-          <Stats title="Total Deaths" stat={`${todayDeaths} Deaths`} />
-          <Stats title="Today New Confirmed" stat={`${todayNewConfirmed} Cases`} />
-          <Stats title="Total New Deaths" stat={`${todayNewDeaths} Deaths`} />
-          <Stats title="Today New Open Cases" stat={`${todayNewOpenCases} Cases`} />
-          <Stats title="Today New Recovered" stat={`${todayNewRecovered} Cases`} />
-          <Stats title="Total Recovered" stat={`${todayRecovered} Cases`} />
-          <Stats title="Yesterday Confirmed" stat={`${yesterdayConfirmed} Cases`} />
-          <Stats title="Yesterday Deaths" stat={`${yesterdayDeaths} Deaths`} />
-          <Stats title="Yesterday Open Cases" stat={`${yesterdayOpenCases} Cases`} />
-          <Stats title="Yesterday Recovered" stat={`${yesterdayRecovered} Cases`} />
+          <Stats id={0} title="Total Confirmed" stat={`${totalConfirmedCases} Cases`} />
+          <Stats id={1} title="Total Deaths" stat={`${todayDeaths} Deaths`} />
+          <Stats id={2} title="Today New Confirmed" stat={`${todayNewConfirmed} Cases`} />
+          <Stats id={3} title="Total New Deaths" stat={`${todayNewDeaths} Deaths`} />
+          <Stats id={4} title="Today New Open Cases" stat={`${todayNewOpenCases} Cases`} />
+          <Stats id={5} title="Today New Recovered" stat={`${todayNewRecovered} Cases`} />
+          <Stats id={6} title="Total Recovered" stat={`${todayRecovered} Cases`} />
+          <Stats id={7} title="Yesterday Confirmed" stat={`${yesterdayConfirmed} Cases`} />
+          <Stats id={8} title="Yesterday Deaths" stat={`${yesterdayDeaths} Deaths`} />
+          <Stats id={9} title="Yesterday Open Cases" stat={`${yesterdayOpenCases} Cases`} />
+          <Stats id={10} title="Yesterday Recovered" stat={`${yesterdayRecovered} Cases`} />
         </div>
       </div>
     </>

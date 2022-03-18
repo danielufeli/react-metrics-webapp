@@ -1,5 +1,4 @@
 const GET_COUNTRIES_SUCCESS = 'applicationStore/countriesReducer/GET_COUNTRIES_SUCCESS';
-const GET_COUNTRY_SUCCESS = 'applicationStore/countriesReducer/GET_COUNTRY_SUCCESS';
 const initialState = [];
 
 export const getCountriesSuccess = (payload) => ({
@@ -7,18 +6,10 @@ export const getCountriesSuccess = (payload) => ({
   payload,
 });
 
-export const getCountrySuccess = (payload) => ({
-  type: GET_COUNTRY_SUCCESS,
-  payload,
-});
-
 const countries = (state = initialState, action) => {
   switch (action.type) {
     case GET_COUNTRIES_SUCCESS:
       return [...state, ...action.payload];
-
-    case GET_COUNTRY_SUCCESS:
-      return [...state, action.payload];
 
     default:
       return state;
