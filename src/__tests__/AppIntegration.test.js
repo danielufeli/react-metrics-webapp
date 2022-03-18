@@ -11,7 +11,7 @@ describe('getCountries action', () => {
     moxios.uninstall();
   });
 
-  test('Store is updated correctly', () => {
+  test('Store is connected and updated correctly', () => {
     const newState = {
       id: '0',
       name: 'Afghanistan',
