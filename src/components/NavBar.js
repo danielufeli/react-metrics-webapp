@@ -9,11 +9,11 @@ const NavBar = () => (
 
         <div>
           <NavLink className="me-2 text-white" to="/"><FaArrowLeft /></NavLink>
-          <strong className="text-white">2022</strong>
+          <strong className="text-white">2022-03-17</strong>
         </div>
 
         <div>
-          <span className="text-white">Category</span>
+          <span className="text-white">Covid-19 Cases</span>
         </div>
 
         <div className="d-flex">
