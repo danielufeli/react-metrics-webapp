@@ -1,56 +1,51 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Covid-19 Stats for Countries
 
-> Description the project.
+> This is a web app which was built using  [Narrativa technology from the Data API](https://covid19tracking.narrativa.com/index_en.html) COVID-19 TRACKING PROJECT The Covid-19 Tracking Project collects information from different data sources to provide comprehensive data for the novel coronavirus, SARS-CoV-2.
 
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Redux
+- Jest
+- Bootstrap
 
-## Live Demo (if available)
+## Live Demo 🚀
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://danielufeli.github.io/react-metrics-webapp)
 
+## Video presentation
+[Video](https://www.loom.com/share/ac6758265ac946e28e3de11194f078f5)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Install Node and npm using the `npm install` command on your command line.
 
 ### Setup
+Clone this repository by typing `git clone git@github.com:danielufeli/react-metrics-webapp.git` on your terminal.
 
 ### Install
+Run `npm install` on your command line.
 
 ### Usage
+Navigate to the project directory `cd react-metrics-webapp`, and run `npm start`. Or, you may view the live demo here: https://danielufeli.github.io/react-metrics-webapp
 
 ### Run tests
+Run `npm test` on your command line.
 
-### Deployment
+## Author
 
+👤 **Daniel Ufeli**
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@danielufeli](https://github.com/danielufeli)
+- Twitter: [@danielufeli](https://twitter.com/danielufeli)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/danielcode/)
 
 ## 🤝 Contributing
 
@@ -64,9 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Great Appreciations go to my code reviewers and partners at Microverse, for your support, advice and inspiration. Made according to design guidelines by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ## 📝 License
 

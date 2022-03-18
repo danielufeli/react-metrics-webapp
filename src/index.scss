@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+$primary: #fd5294;
+$dark-primary: #ec4c8b;
+
+* {
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .primary-bg {
+    background: $dark-primary;
+  }
+
+  .body-bg {
+    background-color: $primary !important;
+  }
+
+  .tab-bg {
+    background-color: #ea4a88 !important;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap.scss";
